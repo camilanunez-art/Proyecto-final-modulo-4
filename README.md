@@ -1,0 +1,8 @@
+## Objetivos de la aplicación
+Programar una clase que administre la data que retorna la web service
+
+## Autor/a
+**Camila Núñez Becerra**
+
+## URL del Repositorio
+https://github.com/camilanunez-art/Proyecto-final-modulo-4

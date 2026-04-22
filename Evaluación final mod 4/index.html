@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrador de Usuarios</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 2; }
+        button { margin: 5px; padding: 10px; cursor: pointer; border-radius: 5px; border: 1px solid #ccc; }
+        button:hover { background-color: #f0f0f0; }
+    </style>
+</head>
+<body>
+
+    <h2>Panel de Administración</h2>
+    
+    <button onclick="manager.listAllNames()">Listar Nombres</button>
+    <button onclick="manager.showBasicInfo()">Información Básica</button>
+    <button onclick="manager.showAddressInfo()">Ver Dirección</button>
+    <button onclick="manager.showAdvancedInfo()">Información Avanzada</button>
+    <button onclick="manager.listCompanies()">Compañías y Frases</button>
+    <button onclick="manager.listNamesSorted()">Nombres Ordenados (A-Z)</button>
+
+    <p><small>Nota: Abre la consola del navegador (F12) para ver los resultados.</small></p>
+
+    <script src="style.js"></script>
+</body>
+</html>
